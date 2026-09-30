@@ -37,7 +37,7 @@ El campo `review_id` enlaza la parte estructurada de MySQL con el documento corr
 - **Grafos:** correlación de Pearson entre usuarios, valoraciones usuario–artículo, usuarios con varias categorías y productos compartidos.
 - **Ampliación:** incorpora Sports and Outdoors y comprueba si cada review ya existe antes de insertarla.
 - **Recomendación:** obtiene hasta diez productos de una categoría ordenados por número de reviews, excluyendo los que el usuario ya ha valorado.
-- **Power BI:** la memoria incluye tres visualizaciones realizadas con esa herramienta; el archivo `.pbix` no forma parte de la entrega recibida.
+- **Power BI:** la memoria incluye tres visualizaciones realizadas con esa herramienta.
 
 El recomendador implementado es una **referencia basada en popularidad**. La propuesta de KNN descrita en la memoria es una línea de trabajo futura, no un modelo entrenado en este repositorio.
 
@@ -45,7 +45,7 @@ El recomendador implementado es una **referencia basada en popularidad**. La pro
 
 ![Grafo de similitud entre usuarios de la entrega académica](assets/similitud-usuarios.jpg)
 
-Captura extraída de la memoria original. Ilustra la ejecución académica documentada; no representa una nueva ejecución de las bases de datos durante la preparación del repositorio.
+Captura extraída de la memoria original.
 
 Consulta el [modelo de datos y las decisiones técnicas](docs/arquitectura.md), la [memoria original](docs/memoria-original.pdf) y el [póster](docs/poster-original.pdf).
 
