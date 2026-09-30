@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.pyc.*
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+data/*.json
+data/*.json.gz
+data/*.csv
+similitudes_usuarios.csv
+*.log
+.DS_Store
+Thumbs.db
